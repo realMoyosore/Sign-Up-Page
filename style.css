@@ -6,7 +6,7 @@
 }
 body {
   margin: 0;
-  font-family: 'Sofia Pro', sans-serif;
+  font-family: "Sofia Pro", sans-serif;
   color: var(--text-color);
 }
 
@@ -42,8 +42,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  
-
 }
 
 .user-input {
@@ -134,3 +132,63 @@ button:hover {
   color: var(--choice-color);
 }
 
+#privacy-terms a {
+  text-decoration: none;
+}
+#privacy-terms a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) and (min-width: 450px) {
+  .main-container {
+    display: grid;
+  }
+
+  .text-section {
+    width: 80%;
+    height: auto;
+    margin: 20px 50px;
+  }
+
+  .form-section {
+    width: 80%;
+    height: auto;
+  }
+
+  .form-row {
+    display: grid;
+    gap: 20px;
+  }
+
+  #heading {
+    font-size: 2.5em;
+  }
+
+  .text-section > p {
+    font-size: 1.3em;
+  }
+}
+
+@media (max-width: 449px) and (min-width: 320px) {
+  .main-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #heading {
+    font-size: 2.5em;
+  }
+
+  .text-section > p {
+    font-size: 0.95em;
+  }
+  .form-section {
+    width: 70%;
+    height: auto;
+  }
+
+  .form-row {
+    display: grid;
+    gap: 20px;
+  }
+}
