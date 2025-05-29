@@ -12,7 +12,6 @@ This project is a simple Sign Up Page built as part of the AltSchool Africa 1st 
 
 - HTML5
 - CSS3
-- JavaScript
 
 ## Getting Started
 
