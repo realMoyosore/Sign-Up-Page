@@ -32,14 +32,12 @@ Sign Up Page/
 └── README.md
 ```
 
-## Author
+## Credits
 
-- Moyosore Sulola
+Design and implementation by Moyosore Sulola
+Project for AltSchool Africa
 
 ## License
 
 This project is licensed for educational purposes.
 
----
-
-Created for AltSchool Africa Assignment.
